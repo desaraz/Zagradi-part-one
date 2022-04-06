@@ -1,0 +1,130 @@
+body{
+    font-family: Work Sans;
+    font-weight: 600;
+    background-color: white;
+}
+header{
+    background-color: #70a48b;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: #70a48b;
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+button{
+    width: 100%;
+    background-color: #70a48b;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: 2px solid #1f211c;
+    border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+    width: 70%;
+    font-size: 10px;
+    padding: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 9px 9px;
+  }
+#black_background{
+      background-color: #1f211c;
+      border: 2px solid #1f211c;
+      border-radius: 5px;
+}
+.hs-logo{
+    display: block;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    padding: 12px;
+}
+p{
+    font-size: 12px;
+}
+h1{
+    font-size: 15px;
+}
+img{
+    width: 49%;
+    border-radius: 10px;
+}
+img.logo2{
+    width: 25px;
+    height: 25px;
+}
+@media screen and (min-width: 768px) {
+    header{
+        height: auto;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .hs-logo{
+        width:20%;
+        height: auto;
+        float: left;
+    }
+    ul {
+        width: 30%;
+        font-size: 1em;
+        padding: 8px;
+        margin-top: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    li a {
+        padding: 8px 8px;
+    }
+    .section-1{
+        float: left;
+        width: 33.33%;
+        margin-right: 20px;
+    }
+    section{
+        padding: 40px;
+        padding-top: 30px;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    button{
+        font-size: 1.3em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+    .friend{
+        width: 17%;
+        border-radius: 10px;
+        padding: 30x;
+    }
+    img.logo2{
+        width: 50px;
+        height: 50px;
+    }
+}
